@@ -1,0 +1,41 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonts/CaviarDreams.ttf);
+}
+body{
+    background-image: url("images/sunset.jpg");
+    background-size: 1800px 1300px;
+    text-align: left;
+    color: white;
+}
+h1{
+     font-family:"CaviarDreams", fantasy;
+     text-align: center;
+     color: white;
+}
+p{
+    font-family:"CaviarDreams", fantasy;
+}
+table{
+    margin-left: left;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid #ffffff;
+    text-align: center;
+    background-color: #9fb6cd;
+}
+th{
+    text-align: center;
+    color: #ffffff;
+    background-color: #DAA520;
+}
+ol{
+    font-family: "CaviarDreams", fantasy;
+    text-align: center;
+}
+.hobbies, .favsongs{
+    font-family: "CaviarDreams", fantasy;
+    text-align: left;
+}

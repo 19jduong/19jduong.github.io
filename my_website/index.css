@@ -1,0 +1,39 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonts/CaviarDreams.ttf);
+}
+body{
+    background-image: url("images/sunset.jpg");
+    background-size: 1500px 1000px;
+}
+h1{
+     font-family:"CaviarDreams", fantasy;
+     text-align: center;
+     color: white;
+}
+p{
+    font-family:"CaviarDreams", fantasy;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid #ffffff;
+    text-align: center;
+    background-color: #9fb6cd;
+}
+th{
+    text-align: center;
+    color: #ffffff;
+    background-color: #003366;
+}
+.hobbies{
+    text-align: center;
+}
+ol{
+    text-align: center;
+}
