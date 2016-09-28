@@ -3,7 +3,7 @@
     src: url(fonts/CaviarDreams.ttf);
 }
 body{
-    background-image: url("images/sunset.jpg");
+    background-image: url("images/sunset6.jpg");
     background-size: 1500px 1000px;
 }
 h1{
@@ -36,4 +36,7 @@ th{
 }
 ol{
     text-align: center;
+}
+.mySlides{
+    box-shadow: 10px 10px 5px #888;
 }
