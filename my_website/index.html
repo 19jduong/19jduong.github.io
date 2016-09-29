@@ -6,6 +6,18 @@
     <link href="index.css" rel="stylesheet" type="text/css">
   </head>
     <style>
+      div.transbox {
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+      }
+
+      div.transbox p {
+          margin: 5%;
+          font-weight: bold;
+          color: #000000;
+      }
       ul {
         list-style-type: none;
         margin: 0;
@@ -72,10 +84,9 @@
       <img class="mySlides" src="images/sunset4.jpg" height="350" width="600" title="http://jimpatterson.photoshelter.com/">
       <img class="mySlides" src="images/sunset3.jpg" height="350" width="600" title="videoblocks.com">
 
-      <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-      <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+      <a class="w3-btn-floating" style="position:absolute;top:45%;left:1%" onclick="plusDivs(-1)">❮</a>
+      <a class="w3-btn-floating" style="position:absolute;top:45%;right:56%" onclick="plusDivs(1)">❯</a>
     </div>
-
   <script>
     var slideIndex = 1;
     showDivs(slideIndex);
@@ -95,5 +106,8 @@
       x[slideIndex-1].style.display = "block";
     }
     </script>
+    <div class="transbox">
+      <p>My website is for a learning experience all about ME</p>
+    </div>
   </body>
 </html>
