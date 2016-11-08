@@ -6,6 +6,18 @@
 	    <link href="portfolio.css" rel="stylesheet" type="text/css">
 	  </head>
         <style>
+        div.transbox {
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+      }
+
+        div.transbox p {
+          margin: 5%;
+          font-weight: bold;
+          color: #000000;
+      }
           ul {
           list-style-type: none;
           margin: 0;
@@ -65,10 +77,25 @@
     </div>
 <hr>
         <h1> My Portfolio</h1>
-        <img src="images/portfolio.jpg" height="250">
 <br>
         <a target="_blank" href="https://scratch.mit.edu">
           <img src="images/scratchlogo.png" height="100">
         </a>
+<br>
+        <a target="_blank" href="https://scratch.mit.edu/projects/127671116/">
+          <img src="images/my_first_game.png" height="258">
+        </a>
+<br>
+         <a target="_blank" href="https://scratch.mit.edu/projects/128756362/">
+          <img src="images/flapping_flying_shark.PNG" height="272">
+        </a>
+        
+        <div class="background">
+          <div class="transbox">
+            <p><a target="_blank" href="https://scratch.mit.edu">
+              <img src="images/scratchlogo.png" height="100"></a>
+            </p>
+          </div>
+        </div>
     </body>
 </html>
